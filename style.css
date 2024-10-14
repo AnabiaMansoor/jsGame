@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;1,100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+:root{
+    --dark:#350363;
+    --background:#ffe9db;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #491759;
+    /* overflow-y: hidden; */
+}
+h2{
+    font-size: 16px;
+}
+p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+main {
+    width: 48vh;
+    text-align: center;
+    background-color: #c2ecea;
+    border-width: 1.8rem;
+    padding: 12rem;
+    border-radius: 1rem;
+    height: 400px;
+    margin-top: 61px;
+}
+
+.form-control{
+     min-width: 18rem;
+    border-radius: 8px;
+    /* background-image: linear-gradient(92.88deg, #455eb5 9.16%, #5463cc 43.89%, #673fd7 64.72%); */
+    box-sizing: border-box;
+    color: black;
+    padding: 1rem 0.5rem;
+    font-size: 13px;
+    /* transition: all 0.5s; */
+    margin: 12px;
+    justify-content: center;
+    text-align: center;
+}
+.image{
+width: 16rem;
+}
+button{
+    min-width: 18rem;
+    border-radius: 8px;
+    background-image: linear-gradient(92.88deg, #455eb5 9.16%, #5463cc 43.89%, #673fd7 64.72%);
+    box-sizing: border-box;
+    color: #ffff;
+    padding: 0.5rem 6rem;
+    font-size: 2rem;
+    transition: all 0.10s;
+    margin: 12px;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    text-transform: capitalize;
+    --webkit-user-select:none;
+   font-family: "josefins Sans" , "sans-serif";
+}
+button:hover{
+    box-shadow: rgba(80,63,205,0.2)0 1px 30px;
+    transition-duration: 0.1s;
+}
+button:last-child{
+    background: var(--dark);
+    margin-bottom: 0;
+}
+/* actual game */
+#gameArea{
+    height: 21vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.stats{
+    /* text-align: left; */
+    margin-bottom: 4rem;
+}
+.info{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 12px;
+}
+.info span{
+    font-size: 1.5rem;
+    color:red;
+}
+
+
